@@ -78,7 +78,7 @@ class Tris:
             else: 
                 (score,i) = self.moveComputer( symbol2 )
                 self.put( i, symbol2 )
-                print("\nComputer's turn: ",i)
+                print("\nComputer's turn: ",i+1)
                 if self.checkTris( symbol2 ): state = 'S'
                 
             self.print()            
